@@ -4,6 +4,6 @@ dockerfilePath = "/Dockerfile"
 
 [deploy]
 startCommand = "python main.py"
-numReplicas = 3
+numReplicas = 2
 restartPolicyType = "ALWAYS"
 restartPolicyMaxRetries = 10
